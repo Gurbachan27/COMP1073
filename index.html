@@ -1,45 +1,46 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewpprt" content="width=device-width, inital-scale=2.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>See 'N' Say Storymaker Replica</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.cs">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="stoymaker">
-        <div class="wordsection">
-            <button class="word-button nounbutton" data-category="noune">
-                <i class="fas fa-user"></i> Noune
+    <div class="storymaker">
+        <div class="word-section">
+            <button class="word-button noun-button" data-category="noun">
+                <i class="fas fa-user"></i> Noun
             </button>
-            <button class="word-button verb-buton" data-category="verbs">
-                <i class="fas fa-running"></i> Vrbs
+            <button class="word-button verb-button" data-category="verb">
+                <i class="fas fa-running"></i> Verb
             </button>
-            <button class="word-buton adjctive-button" data-category="adjectiv">
-                <i class="fas fa-paint-brush"></i> Adjctive
+            <button class="word-button adjective-button" data-category="adjective">
+                <i class="fas fa-paint-brush"></i> Adj
             </button>
-            <button class="word-button object-button" data-category="objects">
-                <i class="fas fa-cube"></i> Obejct
+            <button class="word-button object-button" data-category="object">
+                <i class="fas fa-cube"></i> Object
             </button>
-            <button class="word-button placebutton" data-category="places">
-                <i class="fas fa-map-marker-alt"></i> Plac
+            <button class="word-button place-button" data-category="place">
+                <i class="fas fa-map-marker-alt"></i> Place
             </button>
         </div>
-        <div class="story-display" id="storydisplay">Your stroy will apepar here...</div>
-        <div class="actionbuttons">
+        <div class="story-display" id="story-display">Your story will appear here...</div>
+        <div class="action-buttons">
             <button class="action-button" id="generate-random-story">
-                <i class="fas fa-randm"></i> Gnerate Random Stroy
+                <i class="fas fa-random"></i> Generate Random Story
             </button>
-            <button class="action-bttn" id="generate-custom-story">
-                <i class="fas fa-pencil-altt"></i> Genrate Custom Story
+            <button class="action-button" id="generate-custom-story">
+                <i class="fas fa-pencil-alt"></i> Generate Custom Story
             </button>
-            <button class="action-button" id="resett-buton">
-                <i class="fas fa-undo"></i> Rset
+            <button class="action-button" id="reset-button">
+                <i class="fas fa-undo"></i> Reset
             </button>
         </div>
     </div>
 
-    <script src="scrpt.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
